@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <!-- start head code -->
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+        <title>CK Portfolio</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/glightbox.min.css">
+    </head>
+    <!-- end head code, stuff only the browser needs -->
+
+    <!-- "hero" is a basic term coders use for class titles -->
+    <body>
+        <!-- here, were declaring our classes, for use here and in the css files. -->
+        <section class="hero-box">
+            <section class="hero-image-box">
+                <img class="hero-image" src="img/moonieswim.png" alt="a vibrant underwater scene, a curious winged creature swims through it.">
+                <!-- for src, its looking for a source. here, you're telling it
+                to go to "img/", the / meaning "go inside", and then our file.
+                theoretically, it could go: [src="school/dig1/final/assets/y-1.ai"] -->
+            </section>
+        
+        <section class="hero-text-box">
+            <h1 class="hero-heading">Welcome</h1>
+            <p class="hero-text">Foundation (2021-2022) Portfolio</p>
+            <p class="hero-text-2">Cameron "Moonie" Krizman</p>
+        </section>
+    </section>
+
+    <!-- begin portfolio gallery -->
+    <section class="portfolio-container">
+        <h1>Portfolio</h1>
+        <section class="portfolio-gallery">
+            <!-- 1 -->
+            <div class="gallery-item">
+                <a href="img/krizman_currency-proj_11-15-21.png" class="glightbox">
+                    <img src="img/krizman_currency-proj_11-15-21.png" alt="four rings, fashioned to look like wyverns, made of various materials." class="gallery-image">
+                </a>  
+                <!-- "glightbox" is the gallery were importing -->
+            </div>
+
+            <!-- 2 -->
+            <div class="gallery-item">
+                <a href="img/nostalgia-front.jpg" class="glightbox">
+                    <img src="img/nostalgia-front.jpg" alt="a view of a classroom done in colored pencil, with a large window in the back." class="gallery-image">
+                </a>  
+            </div>
+
+            <!-- 3 -->
+            <div class="gallery-item">
+                <a href="img/floatbag.jpeg" class="glightbox">
+                    <img src="img/floatbag.jpeg" alt="a concept sketch of an industrial vest with bags." class="gallery-image">
+                </a>  
+            </div>
+
+            <!-- 4 -->
+            <div class="gallery-item">
+                <a href="img/windcatcher.jpeg" class="glightbox">
+                    <img src="img/windcatcher.jpeg" alt="an elegant tower with holes on its faces, with a windsock." class="gallery-image">
+                </a>  
+            </div>
+
+            <!-- 5 -->
+            <div class="gallery-item">
+                <a href="img/krizman_popup-photo1.jpg" class="glightbox">
+                    <img src="img/krizman_popup-photo1.jpg" alt="a detailed pop-up page of a dungeons and dragons party facing a dragon." class="gallery-image">
+                </a>  
+            </div>
+
+            <!-- 6 -->
+            <div class="gallery-item">
+                <a href="img/2021-9-13_KRIZMAN_CAMERON_collagepainting.png" class="glightbox">
+                    <img src="img/2021-9-13_KRIZMAN_CAMERON_collagepainting.png" alt="a digital painting of a huge wave sweeping various people and things away." class="gallery-image">
+                </a>  
+            </div>
+
+            <!-- 7 -->
+            <div class="gallery-item">
+                <a href="img/figuredrawing1.JPG" class="glightbox">
+                    <img src="img/figuredrawing1.JPG" alt="several gesture drawings of a human figure, in various poses." class="gallery-image">
+                </a>  
+            </div>
+
+            <!-- 8 -->
+            <div class="gallery-item">
+                <a href="img/y-1.jpg" class="glightbox">
+                    <img src="img/y-1.jpg" alt="A red and white polka-dotted set of vines in the shape of a Y." class="gallery-image">
+                </a>  
+            </div>
+        </section>
+    </section>
+    <script src="js/glightbox.min.js"></script>
+    <script type="text/javascript">
+        const lightbox = GLightbox({loop: true});
+    </script>
+    </body>
+</html>
